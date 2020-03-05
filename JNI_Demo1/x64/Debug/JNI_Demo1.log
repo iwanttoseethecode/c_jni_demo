@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/3/5 22:42:00。
+     1>项目“K:\c_project\JNI_Demo1\JNI_Demo1\JNI_Demo1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         J:\vs_2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt JNI_Demo1.cpp
+         JNI_Demo1.cpp
+         J:\vs_2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt jni_impl.c
+         jni_impl.c
+       Link:
+         J:\vs_2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.lib" /MACHINE:X64 /DLL x64\Debug\JNI_Demo1.obj
+         x64\Debug\jni_impl.obj
+         x64\Debug\stdafx.obj
+            正在创建库 K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.lib 和对象 K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.exp
+         JNI_Demo1.vcxproj -> K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.dll
+     1>已完成生成项目“K:\c_project\JNI_Demo1\JNI_Demo1\JNI_Demo1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.01
