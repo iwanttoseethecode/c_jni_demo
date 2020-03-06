@@ -15,6 +15,30 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_JniMain_getStringFromC
   (JNIEnv *, jclass);
 
+/*
+ * Class:     JniMain
+ * Method:    getStringFromC2
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_JniMain_getStringFromC2
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     JniMain
+ * Method:    accessFieldModify
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_JniMain_accessFieldModify
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     JniMain
+ * Method:    accessStaticFieldModify
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_JniMain_accessStaticFieldModify
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif
