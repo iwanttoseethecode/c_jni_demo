@@ -1,16 +1,21 @@
-﻿生成启动时间为 2020/3/6 22:04:13。
-     1>项目“K:\c_project\JNI_Demo1\JNI_Demo1\JNI_Demo1.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/3/10 11:45:30。
+     1>项目“G:\project\c_project\JNI_Demo1\JNI_Demo1\JNI_Demo1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         J:\vs_2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt jni_impl.c
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt jni_impl.c
          jni_impl.c
-     1>jni_impl.c(31): warning C4090: “初始化”: 不同的“const”限定符
+     1>jni_impl.c(32): warning C4090: “初始化”: 不同的“const”限定符
+     1>jni_impl.c(101): warning C4090: “初始化”: 不同的“const”限定符
+     1>jni_impl.c(143): warning C4090: “初始化”: 不同的“const”限定符
+     1>jni_impl.c(173): warning C4133: “函数”: 从“char *”到“const jchar *”的类型不兼容
+     1>jni_impl.c(180): warning C4267: “函数”: 从“size_t”转换到“jsize”，可能丢失数据
+     1>jni_impl.c(182): warning C4267: “函数”: 从“size_t”转换到“jsize”，可能丢失数据
        Link:
-         J:\vs_2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.lib" /MACHINE:X64 /DLL x64\Debug\JNI_Demo1.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\project\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\project\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\project\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.lib" /MACHINE:X64 /DLL x64\Debug\JNI_Demo1.obj
          x64\Debug\jni_impl.obj
          x64\Debug\stdafx.obj
-         JNI_Demo1.vcxproj -> K:\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.dll
-     1>已完成生成项目“K:\c_project\JNI_Demo1\JNI_Demo1\JNI_Demo1.vcxproj”(Build 个目标)的操作。
+         JNI_Demo1.vcxproj -> G:\project\c_project\JNI_Demo1\x64\Debug\JNI_Demo1.dll
+     1>已完成生成项目“G:\project\c_project\JNI_Demo1\JNI_Demo1\JNI_Demo1.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.87
+已用时间 00:00:01.90
